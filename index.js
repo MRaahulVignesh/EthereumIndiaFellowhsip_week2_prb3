@@ -1,7 +1,7 @@
 import contractABI from "./contractABI.js";
 import Web3 from 'web3';
 
-const url = "https://mainnet.infura.io/v3/86e1bed2a6c34b4a9e55c873fa2db20a";
+const url = "https://mainnet.infura.io/v3/{privatekey}";
 var web3 = new Web3(new Web3.providers.HttpProvider(url));
 
 const contractAddress = "0x78F2c2AF65126834c51822F56Be0d7469D7A523E";
